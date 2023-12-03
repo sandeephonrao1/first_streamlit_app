@@ -1,13 +1,9 @@
-import streamlit  as st
+import streamlit 
 
 st.title('My parents new Healthy Diner')
 
-st.header('Breakfast Menu')
-
-# List of Breakfast items
-breakfast_items = ['Idli', 'Pohe', 'Vada Sambhar', 'Chai', 'Coffee', 'Dosa']
-
-# Display the list of Breakfast items
-for item in breakfast_items:
-    st.write(f'- {item}')
+streamlit.header('Breakfast Menu')
+streamlit.text('Omega 3 & Blueberry Oatmeal')
+streamlit.text('Kale, Spinach & Rocket Smoothie')
+streamlit.text('Hard-Boiled Free-Range Egg')
 
